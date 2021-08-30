@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Application</title>
+</head>
+<body>
+    <form>
+        <form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" enctype="multipart/form-data" method="post"></form>
+        <h1>Please Enter your Details for Our Dating Website!!</h1>
+        <fieldset>
+    <legend>Your General Details</legend>
+	<label for="name">Name:</label>			
+    <input type="text" name="name" placeholder="Your full name" required><br />
+    <label for="email">Email:</label>    
+    <input type="email" name="email" placeholder="Put Your Email" required><br />
+    <label for = "Mobile">Mobile</label>
+    <input type="text" name="phone" placeholder="enter your phone no." required><br/>
+    </form>
+    <form>
+        SELECT GENDER
+        <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br/>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br/>
+        <label for="Date">Date of Proposed Outing:</label>	
+        <input type="date" name="date"><br />
+    </fieldset>
+    <form>
+        <fieldset>
+            <legend>Select  Dating Plan</legend>
+            <h3> Check All That Apply to You</h3>
+            <b>Select One Thing</b>
+            <br>
+            <input type="checkbox" name="Dating plan" id="I Have tattos and/or piercings">
+            <label for=" ">I Have tattos and/or piercings</label>
+            <input type="checkbox" name="Dating plan" id="I Am More Than 2 years older than my daughter">
+            <label for="">I Am More Than 2 years older than my daughte</label>
+            <input type="checkbox" name="Dating plan" id="I Own a panel van or Ferrari">
+            <label for="">I Own a panel van or Ferrarih</label>
+            <input type="checkbox" name="Dating plan" id="I work full time">
+            <label for="">I work full time</label>
+            <input type="checkbox" name="Dating plan" id="My Parents are rich">
+            <label for="">My Parents are rich</label>
+            </fieldset>
+        </form>
+    <form>
+        <fieldset>
+            <legend><h3>Education Details</legend></h3>
+            <form>
+                <label for="Education">Education:</label>
+                <select name="Education" id="Education">
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BA">BA</option>
+                    <option value="MA">MA</option>
+                    <option value="OTHER">OTHER</option>
+
+                </select>
+            </fieldset>
+        
+                <fieldset>
+                    <legend> What Do You Want To date my Daughter</legend>
+            
+                            <label for="Description">Description (50 Words Required):</label>
+                            <textarea rows="5" cols="50" name="Description" id="Description"></textarea></br>
+                            <label for="method-to-contact">Method to Contact You:</label>
+					        <input type="checkbox">
+						    <label for="contact-email">Email</label>
+					        <input type="checkbox">
+						    <label for="contact-whatsapp">WhatsApp</label>
+					        <input type="checkbox">
+						    <label  for="contact mobile">Mobile No.</label>
+                                        
+                    </fieldset>
+                    <fieldset>
+                        <legend> Bank Statement</legend>
+                        <label for ="Upload">Upload</label>
+                        <input type="file" required><br />
+                    </fieldset>
+
+                    <input type="Button" value="Submit">
+</form>
+</body>
+</html>
